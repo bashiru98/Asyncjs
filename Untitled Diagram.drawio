@@ -1,17 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-07-24T10:28:54.337Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="OhEFwDn7sAHJGgQDphkb" version="14.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-24T10:34:29.157Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="CAXVhEKlebpGumXlR2YL" version="14.8.3" type="github">
   <diagram id="fs3lI2GB1L5WylTsp6IE" name="Page-1">
-    <mxGraphModel dx="925" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="925" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="oS43c3b0SwYOZVuwXKjD-1" value="event = on&lt;br&gt;name = &quot;loadMessages&quot;&lt;br&gt;parameters:&lt;br&gt;- userId,&lt;br&gt;-messagesWith(id)&lt;br&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;" parent="1" vertex="1">
           <mxGeometry x="40" y="680" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="oS43c3b0SwYOZVuwXKjD-2" value="server" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;gradientColor=#ea6b66;fillColor=#f8cecc;" parent="1" vertex="1">
-          <mxGeometry x="75" y="20" width="50" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="oS43c3b0SwYOZVuwXKjD-3" value="client&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;gradientColor=#97d077;direction=west;" parent="1" vertex="1">
-          <mxGeometry x="680" y="20" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="oS43c3b0SwYOZVuwXKjD-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="oS43c3b0SwYOZVuwXKjD-4" target="oS43c3b0SwYOZVuwXKjD-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -129,6 +123,12 @@
         </mxCell>
         <mxCell id="oS43c3b0SwYOZVuwXKjD-32" value="&lt;br&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;event = emit&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;name = &quot;disconnect&quot;&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" parent="1" vertex="1">
           <mxGeometry x="640" y="2480" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mV0TiaI_HRqSybvuuW3m-2" value="Client" style="whiteSpace=wrap;html=1;gradientColor=#b3b3b3;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="665" y="10" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mV0TiaI_HRqSybvuuW3m-4" value="Server" style="whiteSpace=wrap;html=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="60" y="10" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
