@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-26T14:39:37.621Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="5U-Ptk5CCuUZaktg3E6t" version="14.9.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-26T14:41:44.382Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="vRZZVilprYxU51hmLstf" version="14.9.2" type="github">
   <diagram id="fs3lI2GB1L5WylTsp6IE" name="Page-1">
     <mxGraphModel dx="925" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -135,6 +135,9 @@
         </mxCell>
         <mxCell id="EOhHJW33b5vcP_iLJKlN-3" value="path:/api/chats/sockets" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="2750" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EOhHJW33b5vcP_iLJKlN-4" value="transports:&quot;websocket&quot;,&quot;polling&quot;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2850" width="330" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
